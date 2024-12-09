@@ -5,8 +5,7 @@ export default defineConfig({
 	plugins: [sveltekit(),
 		VitePWA({
 			registerType: "autoUpdate",
-			pages: "docs",
-			assets: "docs"
+			
 		})
 	]
 });
